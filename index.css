@@ -79,3 +79,16 @@ b {
     font-weight: bold;
 }
 
+.nav {
+    text-align: center;
+}
+
+.nav a {
+    border-radius: 5px;
+}
+
+.header-img {
+    border-radius: 50%;
+    height: 15em;
+    width: auto;
+}
