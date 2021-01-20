@@ -2,32 +2,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+  </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+  </style>
 <!-- Link your CSS stylesheet -->
 <link rel="stylesheet" href="index.css">
 </head>
 <body>
 
-  <section class = "buttons">
-    <div>
-        <button>Plan your Visit</button>
-        <button>Learn about the Park</button>
-        <button>Get Involved</button>
-    </div>
-  </section>
+  <div class = "nav">
+    <nav>
+        <a class = "plan" href = "">Plan your Visit</a>
+        <a class = "learn" href = "">Learn about the Park</a>
+        <a class = "involved" href = "">Get Involved</a>
+    </nav>
+  </div>
       
   <section class = "header">
     <div>
-      <img src = "header_img.jpg">
+      <img src="header_img.jpg">
       <h1>Yosemite Park Guide</h1>
-      Come explore California’s beautiful wilderness.
-      Always open. Reservations are not available or required to enter the park.
+      <p>Come explore California’s beautiful wilderness.</p>
+      <p>Always open. Reservations are not available or required to enter the park.</p>
     </div>  
   </section>
 
   <section class = "about">
     <div>
       <p>
-        Not just a great valley, but a shrine to human foresight, the strength of granite, the power of glaciers, the persistence of life, and the tranquility of the High Sierra.
+        Not just a great valley, but a shrine to human foresight, the strength of granite, the power of glaciers, the persistence of life, and the tranquility of the High Sierra.<br></br>
         First protected in 1864, Yosemite National Park is best known for its waterfalls, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, ancient giant sequoias, a vast wilderness area, and much more.
       </p>
     </div>
@@ -37,12 +43,12 @@
     <div>
       <div id = "infobox1">
         <img src = "https://image.flaticon.com/icons/svg/2979/2979348.svg">
-        <p>Fire is a natural and essential part of Yosemite. We manage fire carefully and study how it interacts with the park’s ecosystems. This blog provides updates about fires in Yosemite. Check for current fire restrictions.</p>
+        <p>Fire is a natural and essential part of Yosemite. We manage fire carefully and study how it interacts with the park’s ecosystems. This blog provides updates about fires in Yosemite. Check for <b>current fire restrictions.</b></p>
       </div>
       
       <div id = "infobox2">
         <img src = "https://image.flaticon.com/icons/svg/820/820374.svg">
-        <p>We strongly recommend that you make reservations for lodging, camping, and backpacking. You can pay the park entrance fee upon arrival (there's no need to pay it in advance).</p>
+        <p>We strongly recommend that you make reservations for lodging, camping, and backpacking. You can pay the <b>park entrance fee</b> upon arrival (there's no need to pay it in advance).</p>
       </div>
     </div>  
   </section>
@@ -50,9 +56,11 @@
   <section class="footer">
     <div>
       <img src = "footer_img.png">
-      <button>Plan your Visit</button>
-      <button>Learn about the Park</button>
-      <button>Get Involved</button>
+      <nav>
+        <a class = "plan" href = "">Plan your Visit</a>
+        <a class = "learn" href = "">Learn about the Park</a>
+        <a class = "involved" href = "">Get Involved</a>
+      </nav>
     </div>  
   </section>
 
